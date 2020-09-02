@@ -24,8 +24,7 @@ import org.springframework.web.servlet.view.RedirectView;
 public class AppController {
 
 	@Autowired
-	HistoryService historyService;
-	
+	HistoryService historyService;	
 	@RequestMapping("/")
 	public String viewIndexPage(Model model)
 	{
